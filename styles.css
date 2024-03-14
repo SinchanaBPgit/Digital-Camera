@@ -4,7 +4,7 @@
     box-sizing: none;
 }
 
-
+/* Global styles */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -17,7 +17,7 @@ body {
     padding: 0 20px;
 }
 
-
+/* Header styles */
 header {
     background-color: #333;
     color: #fff;
@@ -62,20 +62,24 @@ header {
     text-decoration: none;
 }
 
+/* Home section styles */
+
+
 
 .home {
     position: relative;
-    height: 100vh; 
-    overflow: hidden; 
+    height: 100vh; /* Occupies the entire viewport height */
+    overflow: hidden; /* Prevents overflow of content */
+}
 
 .home .content {
     position: absolute;
     top: 20px; /* Adjust as needed for vertical positioning */
     left: 50%;
     transform: translateX(-50%);
-    text-align: center; 
-    z-index: 1; 
-    color: #fff; 
+    text-align: center; /* Center-align text */
+    z-index: 1; /* Ensure text is above the image */
+    color: #fff; /* Text color */
     width: 100%;
 }
 
@@ -85,18 +89,19 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0;
-    overflow: hidden; 
+    z-index: 0; /* Ensure image is behind the text */
+    overflow: hidden; /* Hide overflow */
 }
 
 .home .image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
-    filter: blur(5px); 
+    object-fit: cover; /* Ensure image covers entire container */
+    filter: blur(5px); /* Add blur effect to the image */
+}
 
 .title {
-    margin-top: 20px; 
+    margin-top: 20px; /* Adjust as needed to separate title from text */
 }
 
 
@@ -116,7 +121,12 @@ header {
 
 
 .home .content {
+
+
+
     width: 50%;
+    
+
 }
 
 .home h1 {
@@ -141,7 +151,7 @@ header {
     width: 100%;
 }
 
-
+/* About section styles */
 .about {
     display: flex;
     justify-content: space-between;
@@ -168,7 +178,7 @@ header {
     margin-bottom: 20px;
 }
 
-
+/* Features section styles */
 .features {
     padding: 100px 0;
     background-color: #fff;
@@ -219,7 +229,7 @@ header {
     font-size: 16px;
 }
 
-
+/* Product section styles */
 .product {
     padding: 100px 0;
     background-color: #f9f9f9;
@@ -267,7 +277,8 @@ header {
     color: #333;
 }
 
-
+/* Contact section styles */
+.contact {
     padding: 100px 0;
     text-align: center;
 }
@@ -307,6 +318,7 @@ header {
     height: 150px;
 }
 
+/* FAQ section styles */
 .faq {
     padding: 100px 0;
     background-color: #fff;
