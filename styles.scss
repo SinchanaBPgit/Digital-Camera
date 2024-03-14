@@ -1,10 +1,11 @@
+
 . {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+// Global styles
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -16,7 +17,7 @@ body {
     }
 }
 
-
+// Header styles
 header {
     background-color: #333;
     color: #fff;
@@ -52,7 +53,7 @@ header {
     }
 }
 
-
+// Home section styles
 .home {
     display: flex;
     justify-content: space-between;
@@ -83,7 +84,7 @@ header {
     }
 }
 
-
+// About section styles
 .about {
     display: flex;
     justify-content: space-between;
@@ -111,7 +112,7 @@ header {
     }
 }
 
-
+// Features section styles
 .features {
     padding: 100px 0;
     background-color: #fff;
@@ -154,7 +155,7 @@ header {
     }
 }
 
-
+// Product section styles
 .product {
     padding: 100px 0;
     background-color: #f9f9f9;
@@ -195,7 +196,7 @@ header {
     }
 }
 
-
+// Contact section styles
 .contact {
     padding: 100px 0;
     text-align: center;
@@ -222,7 +223,7 @@ header {
     }
 }
 
-
+// FAQ section styles
 .faq {
     padding: 100px 0;
     background-color: #fff;
@@ -265,7 +266,7 @@ header {
     }
 }
 
-
+// Footer section styles
 .footer {
     background-color: #333;
     color: #fff;
